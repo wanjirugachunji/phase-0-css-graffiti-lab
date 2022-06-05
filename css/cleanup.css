@@ -1,1 +1,23 @@
-/* write your override styles here */
+#wall .tag-1 {
+    display: none;
+  }
+  .tag-1 ~ div  {
+    background: url(../images/tag-2.png) no-repeat;
+    z-index: 6;
+    display: none;
+  }
+
+
+
+#wall #tag-2 + #tag-3 {
+    background: url(../images/tag-3.png) no-repeat;
+    z-index: 5;
+    display: none;
+  }
+  #wall div + .parent div + #tag-5 {
+      background: url(../images/tag-4.png) no-repeat;
+      z-index: 4;
+      display: none;
+    }
+
+
